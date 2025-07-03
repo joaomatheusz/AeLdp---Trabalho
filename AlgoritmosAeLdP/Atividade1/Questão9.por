@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
 
-    inteiro numero, unidade, dezena, centena
+    inteiro Numero, Unidade, Dezena, Centena
 
     escreva("Digite um número de 3 digitos: ")
-    leia(numero)
+    leia(Numero)
     limpa()
 
     escreva("NÚMERO ANTES DA INVERSÃO: ")
-    escreva(numero,"\n")
+    escreva(Numero,"\n")
 
-    centena = numero/100
-    inteiro resto = numero%100
-    dezena = resto/10
-    unidade = resto%10
+    Centena = Numero/100
+    inteiro Resto = Numero%100
+    Dezena = Resto/10
+    Unidade = Resto%10
 
-    escreva("NÚMERO DEPOIS DA INVERSÃO: ", unidade,dezena,centena)
+    escreva("NÚMERO DEPOIS DA INVERSÃO: ", Unidade, Dezena, Centena)
     escreva(" \n")
 
 
