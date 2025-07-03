@@ -6,7 +6,7 @@ programa {
    
     real d
 
-    escreva("Qual é o raio da sua circuferência?\n")
+    escreva("Qual é o raio da circuferência?\n")
     leia(d)
     limpa()
 
